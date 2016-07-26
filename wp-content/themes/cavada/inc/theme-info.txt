@@ -1,0 +1,13 @@
+/*
+Theme Name: Cavada
+Theme URI: http://demo.villatheme.com/cavada
+Author: villatheme.com
+Author URI: http://villatheme.com/
+Description: Business Multipurpose Woocommerce WordPress Theme
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready,  translation-ready
+Text Domain: cavada
+Domain Path: /languages/
+*/

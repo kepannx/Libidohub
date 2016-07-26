@@ -1,0 +1,16 @@
+/**1.0.2 - 06.16.2016**/
+- Added: System require
+- Added: Limit with 30 billings and 50 products
+- Changed: Cache folder
+- Fixed: Report
+- Fixed: Virtual city and name
+- Fixed: Conditional tag
+- Fixed: Display per page
+- Removed: ipAuth key
+
+/**1.0.1 - 06.13.2016**/
+- Fixed: Detect on mobile
+- Fixed: Time when new order
+
+/**1.0.0 - 06.13.2016**/
+~ The first released

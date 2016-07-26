@@ -1,0 +1,246 @@
+.grabbing {
+	cursor: move;
+}
+
+.vi-testimonials {
+	text-align: center;
+	.owl-item {
+		padding-bottom: 60px;
+	}
+	.avatar-testimonial {
+		width:         66px;
+		height:        66px;
+		border-radius: 50%;
+		margin:        0 auto;
+		overflow:      hidden;
+	}
+	&.layout_01 {
+		.item_testimonial {
+			.arrow {
+				position:     absolute;
+				bottom:       -10px;
+				margin-left:  -5px;
+				left:         50%;
+				width:        0;
+				height:       0;
+				border-left:  10px solid transparent;
+				border-right: 10px solid transparent;
+				border-top:   10px solid #fafafa;
+			}
+			.testimonial_content {
+				position: static;
+			}
+		}
+		.avatar-testimonial {
+			.transform(translateY(-50%));
+		}
+		.testimonial-footer {
+			.transform(translateY(150%));
+		}
+		.testimonial_content {
+			margin: 0 auto -20px auto;
+		}
+	}
+
+	&.layout_02, &.layout_03 {
+		.item_testimonial {
+			.testimonial_content {
+				position:   relative;
+				background: #fff;
+			}
+			.arrow:after, .arrow:before {
+				position: absolute;
+				//bottom:   0;
+				left:     50%;
+			}
+
+			.arrow:after {
+				content:      "";
+				width:        0;
+				height:       0;
+				border-top:   18px solid #fff;
+				border-right: 18px solid transparent;
+				bottom:       -18px;
+				margin-left:  1px;
+			}
+
+			.arrow:before {
+				content:      "";
+				width:        0;
+				height:       0;
+				border-top:   20px solid @border_color;
+				border-right: 20px solid transparent;
+				bottom:       -20px;
+
+			}
+		}
+
+		.avatar-testimonial {
+			border: 2px solid @border_color;
+		}
+		.testimonial-footer {
+			.clearfix();
+			.avatar-testimonial, .title-regency {
+				float: left;
+			}
+			.title-regency {
+				text-align:   left;
+				padding-left: 25px;
+			}
+		}
+		.testimonial_content {
+			max-width:  inherit;
+			text-align: left;
+			padding:    20px;
+			border:     1px solid @border_color;
+		}
+		.owl-item {
+			padding-bottom: 0;
+		}
+		.owl-theme .owl-controls {
+			position: absolute;
+			right:    0;
+			bottom:   0;
+			.owl-pagination .owl-page span {
+				width:         20px;
+				height:        5px;
+				border-radius: 0;
+			}
+		}
+	}
+
+	&.layout_03 {
+		.item_testimonial {
+			margin-bottom: 0;
+			.testimonial_content {
+				position:   relative;
+				background: transparent;
+			}
+			.arrow {
+				display: none;
+			}
+		}
+
+		.avatar-testimonial {
+			border: 2px solid @border_color;
+		}
+		.testimonial-footer {
+			.clearfix();
+			display: inline-block;
+			.avatar-testimonial, .title-regency {
+				float: left;
+			}
+			.title-regency {
+				text-align:   left;
+				padding-left: 25px;
+			}
+		}
+		.testimonial_content {
+			max-width:  800px;
+			margin:     0 auto;
+			padding:    0 20px 25px 20px;
+			text-align: center;
+			border:     none;
+		}
+		.owl-item {
+			padding-bottom: 0;
+		}
+		.owl-theme .owl-controls {
+			position: static;
+
+		}
+	}
+
+	&.layout_04 {
+		.item_testimonial {
+			overflow: hidden;
+		}
+		.avatar-testimonial {
+			border: 3px solid @border_color;
+			width:  100px;
+			height: 100px;
+			float:  left;
+		}
+		.testimonial-footer {
+			width:      calc(~"100% - 100px");
+			padding:    0 0 0 30px;
+			float:      right;
+			text-align: left;
+			.clearfix();
+			.avatar-testimonial, .title-regency {
+				float: left;
+			}
+			.title-regency {
+				text-align: left;
+			}
+		}
+
+		.testimonial_content {
+			max-width:  inherit;
+			float:      right;
+			text-align: left;
+			padding:    0 0 30px 30px;
+			margin:     0;
+			width:      calc(~"100% - 100px");
+		}
+		.owl-item {
+			padding-bottom: 0;
+		}
+		.owl-theme .owl-controls {
+			position: absolute;
+			left:     0;
+			bottom:   0;
+			margin:   0;
+			width:    100px;
+		}
+	}
+
+	.item_testimonial {
+		margin:   50px auto 20px auto;
+		position: relative;
+	}
+	&.layout_02 {
+		.item_testimonial {
+			margin-top: 0;
+			.testimonial_content {
+				margin-top: 0;
+			}
+		}
+	}
+	.testimonial_content {
+		max-width:  630px;
+		position:   relative;
+		font-style: italic;
+		margin:     20px auto;
+	}
+
+	.title-regency {
+		display:    inline-block;
+		text-align: center;
+		h5 {
+			margin-top:    0;
+			color:         inherit;
+			margin-bottom: 5px;
+			a {
+				color: inherit;
+			}
+		}
+		.regency {
+			font-style: italic;
+		}
+	}
+
+	.owl-theme .owl-controls {
+		margin-top: 10px;
+		.owl-pagination {
+			.owl-page {
+				span {
+					width:        12px;
+					height:       12px;
+					background:   #dadada;
+					border-color: #dadada;
+				}
+			}
+		}
+	}
+}

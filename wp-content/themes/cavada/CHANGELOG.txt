@@ -1,0 +1,39 @@
+/*v1.0.8 - june 28th 2016 */
+- Updated: Style page Register of woocommercer
+- Updated: RV Plugin
+- Updated: VI Importer plugin
+- Updated: WooCommerce Notification $18
+- Fixed: Filter by WooCommerce widget
+
+/*v1.0.7 - May 23th 2016*/
+- Fixed: Tracking code
+
+/*v1.0.6 - May 21th 2016*/
+- Added: Tracking code
+- Fixed: Shipping duplicate
+
+/*v1.0.5 - May 17th 2016*/
+- Updated: RV slider, Vi Importer, Vi VC addon, Vi minify
+- Fixed: Some minor error.
+
+/*v1.0.4 - 11th May 2016*/
+- Fixed: One click.
+- Updated: RV plugin
+
+/*v1.0.3 - 22th April 2016*/
+- Fixed: Thumb on Quick view product
+- Fixed: Zoom product image
+- Updated: VC and RV plugin
+- Removed: Envato tool kit
+
+/*v1.0.2 - 14th April 2016*/
+- Updated: VC 4.11.2
+- Updated: Setting data
+
+/*v1.0.1 - 13th April 2016*/
+- Fixed: JS on WP 4.5
+- Fixed: Check out page
+- Fixed: Single product page
+
+/*v1.0.0 - 13th April 2016*/
+- The first release

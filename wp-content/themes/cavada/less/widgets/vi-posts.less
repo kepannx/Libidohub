@@ -1,0 +1,120 @@
+.vi-widget-posts {
+	ul {
+		margin: 0;
+		li {
+			margin-top: 20px;
+			overflow:   hidden;
+			&:first-child {
+				margin: 0;
+			}
+			.post-thumbnail {
+				width:        25%;
+				float:        left;
+				margin-right: 5%;
+				position:     relative;
+				overflow:     hidden;
+				&:after {
+					content:    "";
+					background: rgba(255, 255, 255, 0.2);
+					position:   absolute;
+					width:      150%;
+					left:       100%;
+					top:        100%;
+					display:    inline-block;
+					.transition(all 0.5s ease-in-out 0s);
+					.transform(rotate(-45deg));
+				}
+				&:hover:after {
+					left:   -25%;;
+					top:    -25%;
+					height: 150%;
+				}
+			}
+			.post-description {
+				width: 70%;
+				float: left;
+			}
+			h6 {
+				margin: 0;
+			}
+		}
+	}
+}
+
+.vi-widget-tab-posts {
+	ul.nav-tabs {
+		background: #f6f6f6;
+		border:     none;
+		li {
+			background-color: #f6f6f6;
+			border:           none;
+			padding:          0;
+			margin:           0;
+			a {
+				border:         none;
+				text-transform: uppercase;
+				color:          #4f4f4f;
+				font-weight:    bold;
+				font-size:      16px;
+			}
+		}
+
+		> li.active > a, > li.active > a:focus, > li.active > a:hover {
+			border:        none;
+			color:         #4f4f4f;
+			border-radius: 0;
+			background:    #d7d7d7;
+		}
+	}
+	.tab-content {
+		padding: 20px 0;
+		margin:  0;
+		#vi-posts-popular {
+			li {
+				overflow:      hidden;
+				padding:       0 0 20px 0;
+				margin-bottom: 20px;
+				border-bottom: 1px solid @border_color;
+				&:last-child {
+					margin-bottom:  0;
+					padding-bottom: 0;
+					border-bottom:  none;
+				}
+			}
+			.post-thumbnail {
+				width:        80px;
+				margin-right: 15px;
+				float:        left;
+				overflow:     hidden;
+			}
+			.post-description {
+				width: calc(~"100% - 95px");
+				float: left;
+				h6 {
+					margin-top: 0;
+				}
+				.widget-meta {
+					> span {
+						display:       block;
+						font-size:     13px;
+						margin-bottom: 5px;
+						color:         #8f8f8f;
+					}
+				}
+			}
+		}
+		#vi-posts-comments {
+			li {
+				overflow:      hidden;
+				padding:       0;
+				margin-bottom: 10px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				h6 {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}

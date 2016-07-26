@@ -1,0 +1,83 @@
+#ship-to-different-address {
+  position: relative;
+  label {
+	font-weight: normal;
+	padding-left: 30px;
+  }
+  #ship-to-different-address-checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+}
+
+.woocommerce #payment #place_order {
+  width: 100%;
+}
+
+.woocommerce-checkout {
+  &.checkout {
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.woocommerce-checkout-review-order-table {
+	  border-right: none;
+	  td, th {
+		border-bottom: none
+	  }
+	}
+	#payment {
+	  border-radius: 0;
+	}
+  }
+
+  label {
+	font-weight: normal;
+	color: #999;
+	font-style: italic;
+  }
+  .button {
+	box-shadow: none;
+	border-radius: 0 !important;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 2px;
+	border: none;
+	padding: 11px 25px;
+	text-shadow: 0 0 0;
+	text-transform: uppercase;
+	font-size: @font-size-small;
+	background: #181818 !important;
+	color: @white !important;
+	&:hover {
+	  color: @white !important;
+	}
+  }
+  #customer_details {
+	width: 70%;
+	float: right;
+	padding-left: 30px;
+  }
+
+  #order_review_heading {
+	margin-top: 0;
+  }
+
+  #order_review_heading, #order_review {
+	width: 30%;
+	float: left;
+	clear: inherit;
+  }
+}
+
+.woocommerce-billing-fields h3, #ship-to-different-address, .woocommerce-shipping-fields h3 {
+  margin-top: 0;
+  label {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: inherit;
+	font-style: normal;
+  }
+}

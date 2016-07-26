@@ -1,0 +1,326 @@
+/*====================
+=======SHOES STORE====
+======================*/
+.promo-banner {
+	position: relative;
+	.text-container {
+		position: absolute;
+		padding:  15px;
+		z-index:  99;
+		.text-hover {
+			display: inline-block;
+		}
+		.sub-title {
+			color:         inherit;
+			margin-top:    0;
+			margin-bottom: 5px;
+			font-weight:   normal;
+		}
+		h3.sub-title {
+			font-weight: 300;
+		}
+		.title {
+			color:      inherit;
+			margin-top: 0;
+		}
+		.title-dot {
+			position:       relative;
+			text-transform: uppercase;
+			margin-top:     0;
+			&:after, &:before {
+				content:       "";
+				margin-left:   5px;
+				width:         5px;
+				height:        5px;
+				display:       inline-block;
+				border-radius: 50%;
+			}
+			&:before {
+				margin-left:  0;
+				margin-right: 5px;
+			}
+		}
+		.title-border-bottom {
+			border-bottom: 1px solid;
+			display:       block;
+		}
+		.title-border-both {
+			border-top:    1px solid;
+			border-bottom: 1px solid;
+			padding:       13px 0;
+			//border-color:  #fff;
+		}
+	}
+	.text-left {
+		top:               50%;
+		transform:         translateY(-49%);
+		-webkit-transform: translateY(-49%);
+		-moz-transform:    translateY(-49%);
+		-o-transform:      translateY(-49%);
+		left:              0;
+		text-align:        left;
+	}
+	.text-top-left {
+		left:   0;
+		top:    0;
+		bottom: auto;
+	}
+	.text-right {
+		top:               50%;
+		transform:         translateY(-49%);
+		-webkit-transform: translateY(-49%);
+		-moz-transform:    translateY(-49%);
+		-o-transform:      translateY(-49%);
+		right:             0;
+		text-align:        right;
+	}
+	.text-top-right {
+		right:  0;
+		top:    0;
+		bottom: auto;
+	}
+	.text-center {
+		top:               50%;
+		width:             100%;
+		text-align:        center;
+		transform:         translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-moz-transform:    translateY(-50%);
+		-o-transform:      translateY(-50%);
+	}
+	.text-top-center {
+		top:        0;
+		width:      100%;
+		text-align: center;
+	}
+	.text-bottom-center {
+		bottom:     0;
+		width:      100%;
+		text-align: center;
+	}
+	.text-bottom-left {
+		bottom: 0;
+		left:   0;
+		top:    auto;
+	}
+	.text-bottom-right {
+		bottom:     0;
+		right:      0;
+		top:        auto;
+		text-align: right;
+	}
+	.a-default {
+		padding-bottom: 12px;
+		position:       relative;
+		color:          inherit;
+		display:        inline-block;
+		margin-top:     10px;
+		&:after {
+			position:      absolute;
+			width:         100%;
+			height:        4px;
+			left:          0;
+			bottom:        0;
+			content:       "";
+			border-bottom: 1px solid;
+			border-top:    1px solid;
+		}
+
+	}
+	.view-more {
+		margin: 15px 0;
+	}
+}
+
+/****/
+.default {
+	.promo-banner {
+		.text-right {
+			padding-right: 30px;
+		}
+		.text-left {
+			padding-left: 30px;
+		}
+	}
+}
+
+/*====================
+=======SHOES STORE====
+======================*/
+/* Promo banner effect */
+.ef-bg-shadow .promo-banner:after {
+	position:   absolute;
+	content:    "";
+	left:       20px;
+	right:      20px;
+	bottom:     20px;
+	top:        20px;
+	background: #000000;
+	opacity:    0.4;
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+.ef-bg-shadow .promo-banner:hover:after {
+	left:   0;
+	right:  0;
+	bottom: 0;
+	top:    0;
+	.transition(all 0.3s ease-in-out 0s);
+
+}
+
+.promo-banner .text-decoration {
+	text-decoration: underline;
+}
+
+.effect-one .promo-banner {
+	overflow: hidden;
+	.a-default {
+		margin-top: 0;
+	}
+	.text-container .title-dot {
+		margin-bottom: 5px;
+	}
+
+}
+
+.effect-one .promo-banner:after {
+	position:          absolute;
+	height:            200%;
+	width:             50%;
+	transform:         rotate(45deg);
+	background-image:  url('images/bg_tabs.jpg');
+	background-repeat: repeat;
+	top:               0;
+	right:             -20px;
+	content:           "";
+	z-index:           9;
+}
+
+.effect-one .promo-banner:before {
+	position:  absolute;
+	height:    200%;
+	width:     50%;
+	transform: rotate(45deg);
+	top:       50%;
+	right:     -20px;
+	content:   "";
+	opacity:   0;
+	z-index:   10;
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+.effect-one .promo-banner:hover:before {
+	opacity: 1;
+	top:     0;
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+.effect-one .promo-banner:hover {
+	.title-dot {
+		&:after, &:before {
+			background: #fff;
+		}
+	}
+}
+
+.effect-two .promo-banner {
+	overflow: hidden;
+}
+
+.effect-two .promo-banner .text-container {
+	padding: 30px;
+}
+
+.effect-two .promo-banner:after {
+	border:   1px solid;
+	left:     15px;
+	right:    15px;
+	top:      15px;
+	bottom:   15px;
+	position: absolute;
+	content:  "";
+}
+
+.effect-two .promo-banner img {
+	.scale(1);
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+.effect-two .promo-banner:hover img {
+	.scale(1.1);
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+/* line effect */
+.line-effect:hover:before, .line-effect:hover:after {
+	transform:         scale(1, 1);
+	-moz-transform:    scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	-o-transform:      scale(1, 1);
+}
+
+.line-effect:before {
+	bottom:   0;
+	content:  "";
+	left:     0;
+	position: absolute;
+	right:    0;
+	top:      0;
+	.transform(scale(0, 1));
+	.transition(all 0.3s ease-in-out 0s);
+	z-index:  2;
+}
+
+.line-effect:after {
+	bottom:   0;
+	content:  "";
+	left:     0;
+	position: absolute;
+	right:    0;
+	top:      0;
+	.transform(scale(1, 0));
+	.transition(all 0.3s ease-in-out 0s);
+	z-index:  2;
+}
+
+.line-effect .promo-banner:after,
+.line-effect .promo-banner:before {
+	border-left:  5px solid #fff;
+	border-right: 5px solid #fff;
+	bottom:       0;
+	content:      "";
+	left:         0;
+	position:     absolute;
+	right:        0;
+	top:          0;
+	.transform(scale(1, 1));
+	.transition(all 0.3s ease-in-out 0s);
+	z-index:      1;
+}
+
+.line-effect :hover .promo-banner:before {
+	.transform(scale(1, 0));
+}
+
+.line-effect:hover .promo-banner:after {
+	.transform(scale(1, 0));
+}
+
+.line-effect .promo-banner .text-left,
+.line-effect .promo-banner .text-bottom-left,
+.line-effect .promo-banner .text-top-left {
+	padding-left: 30px;
+}
+
+.line-effect .promo-banner .text-right,
+.line-effect .promo-banner .text-bottom-right,
+.line-effect .promo-banner .text-top-right {
+	padding-right: 30px;
+}
+
+.fashion-store {
+	.promo-banner .text-container .text-hover {
+		text-align: center;
+	}
+}

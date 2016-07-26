@@ -1,0 +1,22 @@
+/*1.0.6 - April 19th 2016  */
+- Fixed: Save setting
+- Fixed: Redirect ThemeOptions when import succesfully
+
+/*1.0.5 - April 19th 2016  */
+- Added: Integrated with Redux framework
+
+/*1.0.4 - April 16th 2016  */
+- Added: Language
+
+/*1.0.3 - April 14th 2016  */
+- Fixed: Setting ThemeOptions
+
+/*1.0.2 - Feb 27th 2016  */
+- Fixed: Text domain
+- Fixed: Compartible with WP 4.4
+
+/*1.0.1 - Feb 22th 2016  */
+- Fixed: Filter input data
+
+/*1.0.0 - Feb 12th 2016  */
+- The first released.

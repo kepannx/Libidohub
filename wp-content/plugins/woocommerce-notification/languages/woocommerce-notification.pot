@@ -1,0 +1,354 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Coupon Box Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Feb 16 2016 22:20:11 GMT+0700 (SE Asia Standard Time)\n"
+"POT-Revision-Date: Mon Jun 06 2016 16:44:15 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WooCommerce Notification"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://villatheme.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Increase conversion rate by highlighting other customers that have bought "
+"products."
+msgstr ""
+
+#. Author of the plugin
+msgid "Andy Ha (tuhn@villatheme.com)"
+msgstr ""
+
+#. Author of the plugin
+msgid "Andy Ha (support@villatheme.com)"
+msgstr ""
+
+#: ../admin/admin.php:59 ../admin/admin.php:59
+msgid "Settings"
+msgstr ""
+
+#: ../admin/admin.php:117
+msgid "Woo Notification"
+msgstr ""
+
+#: ../admin/settings.php:87
+msgid "WOOCOMMERCE NOTIFICATION SETTINGS"
+msgstr ""
+
+#: ../admin/settings.php:92
+msgid "General"
+msgstr ""
+
+#: ../admin/settings.php:93
+msgid "Products"
+msgstr ""
+
+#: ../admin/settings.php:94
+msgid "Design"
+msgstr ""
+
+#: ../admin/settings.php:95
+msgid "Time"
+msgstr ""
+
+#: ../admin/settings.php:96
+msgid "Logs"
+msgstr ""
+
+#: ../admin/settings.php:105
+msgid "Enable"
+msgstr ""
+
+#: ../admin/settings.php:118
+msgid "Mobile"
+msgstr ""
+
+#: ../admin/settings.php:126
+msgid "Notification will show on mobile and responsive."
+msgstr ""
+
+#: ../admin/settings.php:131
+msgid "Conditional Tags"
+msgstr ""
+
+#: ../admin/settings.php:135
+msgid "Lets you control on which pages appear using WP's conditional tags."
+msgstr ""
+
+#: ../admin/settings.php:149
+msgid "Show Products"
+msgstr ""
+
+#: ../admin/settings.php:153
+msgid "Get from Billing"
+msgstr ""
+
+#: ../admin/settings.php:154 ../admin/settings.php:180
+msgid "Select Products"
+msgstr ""
+
+#: ../admin/settings.php:156
+msgid "You can use real products in order or special product what you want up sells."
+msgstr ""
+
+#: ../admin/settings.php:161
+msgid "Order Time"
+msgstr ""
+
+#: ../admin/settings.php:170
+msgid "Hours"
+msgstr ""
+
+#: ../admin/settings.php:171
+msgid "Days"
+msgstr ""
+
+#: ../admin/settings.php:175
+msgid "Products in this recently time will get from order.  "
+msgstr ""
+
+#: ../admin/settings.php:194
+msgid "Please select products"
+msgstr ""
+
+#: ../admin/settings.php:210
+msgid "Virtual First Name"
+msgstr ""
+
+#: ../admin/settings.php:214
+msgid "Virtual first name what will show on notification. Each first name on a line."
+msgstr ""
+
+#: ../admin/settings.php:219
+msgid "Country"
+msgstr ""
+
+#: ../admin/settings.php:222
+msgid "Auto Detect"
+msgstr ""
+
+#: ../admin/settings.php:223
+msgid "Virtual"
+msgstr ""
+
+#: ../admin/settings.php:225
+msgid "You can use auto detect address or make virtual address of customer."
+msgstr ""
+
+#: ../admin/settings.php:230
+msgid "Virtual City"
+msgstr ""
+
+#: ../admin/settings.php:233
+msgid "Virtual city name what will show on notification. Each city name on a line."
+msgstr ""
+
+#: ../admin/settings.php:238
+msgid "Virtual Country"
+msgstr ""
+
+#: ../admin/settings.php:241
+msgid "Virtual country name what will show on notification."
+msgstr ""
+
+#: ../admin/settings.php:246
+msgid "Virtual Time"
+msgstr ""
+
+#: ../admin/settings.php:251 ../frontend/notify.php:374
+msgid "hours"
+msgstr ""
+
+#: ../admin/settings.php:254
+msgid "Time will auto get random in this time threshold ago."
+msgstr ""
+
+#: ../admin/settings.php:259
+msgid "Ipfind Auth Key"
+msgstr ""
+
+#: ../admin/settings.php:262
+msgid ""
+"When you use detect IP, please enter your auth key. You can get at https:"
+"//ipfind.co"
+msgstr ""
+
+#: ../admin/settings.php:276
+msgid "Message purchased"
+msgstr ""
+
+#: ../admin/settings.php:282
+msgid "Customer first name"
+msgstr ""
+
+#: ../admin/settings.php:285
+msgid "Customer city"
+msgstr ""
+
+#: ../admin/settings.php:288
+msgid "Customer country"
+msgstr ""
+
+#: ../admin/settings.php:291
+msgid "Product title"
+msgstr ""
+
+#: ../admin/settings.php:294
+msgid "Product title with link"
+msgstr ""
+
+#: ../admin/settings.php:297
+msgid "Time after purchase"
+msgstr ""
+
+#: ../admin/settings.php:304
+msgid "Message checkout"
+msgstr ""
+
+#: ../admin/settings.php:312
+msgid "Highlight color"
+msgstr ""
+
+#: ../admin/settings.php:320
+msgid "Text color"
+msgstr ""
+
+#: ../admin/settings.php:328
+msgid "Background color"
+msgstr ""
+
+#: ../admin/settings.php:336
+msgid "Image Position"
+msgstr ""
+
+#: ../admin/settings.php:340
+msgid "Left"
+msgstr ""
+
+#: ../admin/settings.php:341
+msgid "Right"
+msgstr ""
+
+#: ../admin/settings.php:347
+msgid "Position"
+msgstr ""
+
+#: ../admin/settings.php:351
+msgid "Bottom left"
+msgstr ""
+
+#: ../admin/settings.php:352
+msgid "Bottom right"
+msgstr ""
+
+#: ../admin/settings.php:353
+msgid "Top left"
+msgstr ""
+
+#: ../admin/settings.php:354
+msgid "Top right"
+msgstr ""
+
+#: ../admin/settings.php:361
+msgid "Show Close Icon"
+msgstr ""
+
+#: ../admin/settings.php:381
+msgid "Loop"
+msgstr ""
+
+#: ../admin/settings.php:392
+msgid "Initial delay"
+msgstr ""
+
+#: ../admin/settings.php:398 ../admin/settings.php:413 ../admin/settings.php:427 .
+#: ./frontend/notify.php:388
+msgid "seconds"
+msgstr ""
+
+#: ../admin/settings.php:401
+msgid "When your site load, notification will wait for this time to show."
+msgstr ""
+
+#: ../admin/settings.php:407
+msgid "Display time"
+msgstr ""
+
+#: ../admin/settings.php:416
+msgid "Time your notification display."
+msgstr ""
+
+#: ../admin/settings.php:421
+msgid "Next times display"
+msgstr ""
+
+#: ../admin/settings.php:430
+msgid "Time to show your notification next time."
+msgstr ""
+
+#: ../admin/settings.php:435
+msgid "Notification per page"
+msgstr ""
+
+#: ../admin/settings.php:439
+msgid "Quantity notifications on a page."
+msgstr ""
+
+#: ../admin/settings.php:453
+msgid "History time"
+msgstr ""
+
+#: ../admin/settings.php:459 ../frontend/notify.php:365
+msgid "days"
+msgstr ""
+
+#: ../admin/settings.php:468
+msgid "Save"
+msgstr ""
+
+#: ../frontend/notify.php:123
+msgid "About"
+msgstr ""
+
+#: ../frontend/notify.php:123
+msgid "ago"
+msgstr ""
+
+#: ../frontend/notify.php:367
+msgid "day"
+msgstr ""
+
+#: ../frontend/notify.php:376
+msgid "hour"
+msgstr ""
+
+#: ../frontend/notify.php:383
+msgid "minutes"
+msgstr ""
+
+#: ../frontend/notify.php:385
+msgid "minute"
+msgstr ""

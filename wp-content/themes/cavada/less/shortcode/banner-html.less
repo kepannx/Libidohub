@@ -1,0 +1,156 @@
+/*====================
+=======SHOES STORE====
+======================*/
+.promo-banner {
+	position: relative;
+	.text-container {
+		.text-hover {
+			padding: 15px 30px;
+			display: inline-block;
+		}
+		.sub-title {
+			color:         inherit;
+			margin-top:    0;
+			margin-bottom: 0;
+			font-weight:   normal;
+		}
+		h3.sub-title {
+			font-weight: 300;
+		}
+		.title {
+			color:         inherit;
+			margin-top:    0;
+			margin-bottom: 0;
+			a {
+				color: inherit;
+			}
+		}
+		.btn-default {
+			margin-top:    25px;
+			color:         inherit;
+			padding:       6px 20px;
+			margin-bottom: 0;
+		}
+	}
+	.text-left {
+		text-align: left;
+	}
+	.text-right {
+		text-align: right;
+	}
+	.text-center {
+		text-align: center;
+	}
+
+	.view-more {
+		margin: 15px 0;
+	}
+	&.between_bottom {
+		.text-bottom-center, .text-bottom-right, .text-bottom-left {
+			bottom: 30px;
+		}
+	}
+	&.custom-border {
+		&:before {
+			content:  "";
+			position: absolute;
+			top:      8px;
+			right:    8px;
+			bottom:   8px;
+			left:     8px;
+			border:   1px solid #9a9a9d;
+		}
+	}
+}
+
+.image-banner {
+	.promo-banner {
+		.text-container {
+			position: absolute;
+			z-index:  99;
+ 		}
+		.text-left {
+			top:               50%;
+			transform:         translateY(-49%);
+			-webkit-transform: translateY(-49%);
+			-moz-transform:    translateY(-49%);
+			-o-transform:      translateY(-49%);
+			left:              0;
+		}
+		.text-top-left {
+			left:   0;
+			top:    0;
+			bottom: auto;
+		}
+		.text-right {
+			top:               50%;
+			transform:         translateY(-49%);
+			-webkit-transform: translateY(-49%);
+			-moz-transform:    translateY(-49%);
+			-o-transform:      translateY(-49%);
+			right:             0;
+			text-align:        right;
+		}
+		.text-top-right {
+			right:      0;
+			top:        0;
+			bottom:     auto;
+			text-align: right;
+		}
+		.text-center {
+			top:               50%;
+			width:             100%;
+			text-align:        center;
+			transform:         translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-moz-transform:    translateY(-50%);
+			-o-transform:      translateY(-50%);
+		}
+		.text-top-center {
+			top:        0;
+			width:      100%;
+			text-align: center;
+		}
+		.text-bottom-center {
+			bottom:     0;
+			width:      100%;
+			text-align: center;
+		}
+		.text-bottom-left {
+			bottom:     0;
+			left:       0;
+			top:        auto;
+			text-align: left;
+		}
+		.text-bottom-right {
+			bottom:     0;
+			right:      0;
+			top:        auto;
+			text-align: right;
+		}
+	}
+}
+
+.banner-html-no-image {
+	.text-container .text-hover {
+		width: 100%;
+	}
+}
+
+.image-zoom + .image-zoom {
+	margin: 30px 0 0;
+}
+
+.image-zoom .promo-banner {
+	overflow: hidden;
+}
+
+.image-zoom .promo-banner img {
+	.scale(1);
+	.transition(all 0.3s ease-in-out 0s);
+}
+
+.image-zoom .promo-banner:hover img {
+	.scale(1.1);
+	.transition(all 0.3s ease-in-out 0s);
+}

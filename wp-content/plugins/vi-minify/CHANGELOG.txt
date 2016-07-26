@@ -1,0 +1,8 @@
+/*******v1.0.3 - May 16th 2016*******/
+- Fixed: Defined Image path
+/*******v1.0.2 - Feb 17th 2016*******/
+- Fixed: Redirect
+/*******v1.0.1 - Feb 17th 2016*******/
+- Fixed: check login
+/*******v1.0.0 - Feb 17th 2016*******/
+~ The first release

@@ -1,0 +1,6 @@
+/*v1.0.3 - May 16th 2016*/
+- Added: Language
+/*v1.0.2 - April 10th  2016*/
+- Added: Prefix shortcode
+/*v1.0.1 - March 12th  2016*/
+- Renamed: Twitter feed shortcode category
